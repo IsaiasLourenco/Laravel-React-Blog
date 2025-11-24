@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* -----------------------
+   THEME: Dark (Laravel-like)
+   -----------------------*/
+
+/* Base do site: fundo escuro e texto claro */
+body {
+  @apply bg-gray-900 text-gray-300 min-h-screen;
+}
+
+/* Links / destaque laranja (estilo Laravel) */
+a {
+  @apply text-orange-400 hover:text-orange-300 transition-colors;
+}
+
+/* Botão laranja reutilizável */
+.btn-orange {
+  @apply bg-orange-600 text-white px-4 py-2 rounded-md hover:bg-orange-700 transition-colors;
+}
+
+/* Tabela escura padrão */
+.table-dark {
+  @apply w-full text-left border border-gray-700;
+}
+.table-dark thead tr {
+  @apply bg-gray-800 text-gray-200;
+}
+.table-dark tbody tr:hover {
+  @apply bg-gray-800;
+}
+.table-dark th,
+.table-dark td {
+  @apply p-3 border-b border-gray-700;
+}
+
+/* Inputs / campos */
+.input-dark {
+  @apply border border-gray-700 bg-gray-800 text-gray-100 p-2 rounded;
+}
+
+/* Pequenas utilidades que combinam com o tema */
+.card-dark {
+  @apply bg-gray-800 border border-gray-700 rounded-xl p-6 shadow transition-shadow;
+}
+.text-muted {
+  @apply text-gray-400;
+}
+
+/* Mantém sua classe .active */
+.active {
+  @apply font-bold;
+}
