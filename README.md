@@ -167,4 +167,4 @@ Projeto livre para estudos e aprimoramentos.
 ### ✨ Autor
 
 Desenvolvido por José Isaías Lourenço durante estudos avançados de Laravel + React.<br>
-Em parceria com a empresa [© Vetor256](https://vetor256.com).
+Em parceria com a empresa <a href="https://vetor256.com" target="_blank">© Vetor256</a>.
